@@ -5,24 +5,25 @@
 </head>
 <body>
  <script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+    function initEmbeddedMessaging() {
+        try {
+            embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00DBg000002CF0X',
-				'PM_Surya_Ghar_Muft_Bijli_Yojana_Web',
-				'https://pmagy2025--pmagyuat.sandbox.my.site.com/ESWPMSuryaGharMuftBij1745996549653',
-				{
-					scrt2URL: 'https://pmagy2025--pmagyuat.sandbox.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
+            embeddedservice_bootstrap.init(
+                '00DS400000JcUmv',
+                'PM_Surya_Ghar_Muft_Bijli_Yojana_ESD',
+                'https://pmagy2025.my.site.com/ESWPMSuryaGharMuftBij1745418526451',
+                {
+                    scrt2URL: 'https://pmagy2025.my.salesforce-scrt.com'
+                }
+            );
+        } catch (err) {
+            console.error('Error loading Embedded Messaging: ', err);
+        }
+    };
 </script>
-<script type='text/javascript' src='https://pmagy2025--pmagyuat.sandbox.my.site.com/ESWPMSuryaGharMuftBij1745996549653/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://pmagy2025.my.site.com/ESWPMSuryaGharMuftBij1745418526451/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
 </body>
 </html>
